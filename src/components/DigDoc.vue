@@ -1,12 +1,12 @@
 <template>
     <div id="app">
-        <div class="Title">
+        <div class="title">
             <h1>Dig Doc</h1>
         </div>
-        <div class="Input">
+        <div class="input">
             <input type="text" v-model="keyword">
         </div>
-        <div class="DocTable">
+        <div class="doctable">
             <table align="center">
                 <thead>
                     <tr>
@@ -19,7 +19,7 @@
                     <tr v-for="(doc, index) in filterdDocs" :key="index">
                         <td v-text="doc.id"></td>
                         <td v-text="doc.name"></td>
-                        <td v-text="doc.url"></td>
+                        <td> <a :href="doc.url">{{doc.url}}</a></td>
                         <td v-text="doc.note.slice(0, 10)"></td>
                         <td v-text="doc.update"></td>
                     </tr>
@@ -74,7 +74,7 @@
      background-color: #f9f9f9;
  }
  th, td {
-     min-width: 30px;
+     min-width: 40px;
      padding: 10px 20px;
  }
  th.active {

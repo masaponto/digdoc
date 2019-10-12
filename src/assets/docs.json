@@ -2,28 +2,28 @@
     {
         "id": 1,
         "name": "寿司レシピ",
-        "url": "masaponto.github.io",
+        "url": "https://masaponto.github.io",
         "note": "aaa",
         "update": 20190909
     },
     {
         "id": 2,
         "name": "寿司",
-        "url": "masaponto.github.io",
+        "url": "https://masaponto.github.io",
         "note": "bbb",
         "update": 20190909
     },
     {
         "id": 3,
         "name": "PJCD",
-        "url": "masaponto.github.io",
+        "url": "https://masaponto.github.io",
         "note": "bbb",
         "update": 20190909
     },
     {
         "id": 3,
         "name": "PJCD",
-        "url": "masaponto.github.io",
+        "url": "https://masaponto.github.io",
         "note": "ああああああああああああああああああ\nああああああああああああああああああああああああ",
         "update": 20190909
     }
