@@ -83,4 +83,9 @@
  th.active .arrow {
      opacity: 1;
  }
+
+ input {
+     margin-bottom: 10px;
+ }
+
 </style>
