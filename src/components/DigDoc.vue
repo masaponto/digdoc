@@ -20,7 +20,7 @@
                         <td v-text="doc.id"></td>
                         <td v-text="doc.name"></td>
                         <td v-text="doc.url"></td>
-                        <td v-text="doc.note"></td>
+                        <td v-text="doc.note.slice(0, 10)"></td>
                         <td v-text="doc.update"></td>
                     </tr>
                 </tbody>
